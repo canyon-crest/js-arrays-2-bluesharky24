@@ -13,7 +13,7 @@
 //  WARM-UP: Favorite Colors
 // ============================================
 // Build an array of 3 colors and print each one.
-let colors = ["blue", "red", "green"];
+let colors = ["red", "green", "blue"];
 
 // STEP 1: Create an array called "colors" with exactly
 //         three strings: "red", "green", "blue"
@@ -72,6 +72,8 @@ for(let i = 0; i<5; i++){
     }
 }
 
+console.log(s);
+
 
 // STEP 6: Calculate the sum of all numbers.
 //         Use a for loop to add each number to a running total.
@@ -83,7 +85,7 @@ console.log("Sum: " + sum);
 //         Print: console.log("Average: " + average)
 //         (No rounding needed)
 let average = sum/numbers.length;
-console.log("Average : " + average);
+console.log("Average: " + average);
 
 // STEP 8: Count how many numbers are even.
 //         A number is even if number % 2 equals 0.
@@ -101,7 +103,7 @@ console.log("Even count: " + count);
 //         Start with the first number as the largest.
 //         Loop through the rest and update if you find a bigger one.
 //         Print: console.log("Largest: " + largest)
-let largest = numbers[i];
+let largest = numbers[0];
 for(let i = 0; i<5; i++){
     largest = Math.max(largest, numbers[i]);
 }
